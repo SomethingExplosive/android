@@ -2,15 +2,21 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
-           review="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+	   fetch="git://github.com/" />
+
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" >
+  <project path="build" name="SomethingJelly/android_build" remote="github" revision="sj4.2.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="android" name="SomethingJelly/android" remote="github" revision="sj4.2.1" />
+
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -19,8 +25,8 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device" />
-  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device" />
+  <project path="device/asus/grouper" name="SomethingJelly/android_device_asus_grouper" remote="github" revision="sj4.2.1" groups="device" />
+  <project path="device/asus/tilapia" name="SomethingJelly/android_device_asus_tilapia" remote="github" revision="sj4.2.1" groups="device" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -36,7 +42,7 @@
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
+  <project path="device/samsung/toroplus" name="SomethingJelly/android_device_samsung_toroplus" remote="github" revision="sj4.2.1" groups="device" />
   <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -198,7 +204,7 @@
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
+  <project path="frameworks/base" name="SomethingJelly/android_frameworks_base" remote="github" revision="sj4.2.1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -341,5 +347,19 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+
+  <!-- Proprietary vendor files -->
+  <project path="vendor/samsung" name="SomethingJelly/android_vendor_samsung" remote="github" revision="sj4.2.1" />
+  <project path="vendor/widevine" name="SomethingJelly/android_vendor_widevine" remote="github" revision="sj4.2.1" />
+  <project path="vendor/nxp" name="SomethingJelly/android_vendor_nxp" remote="github" revision="sj4.2.1" />
+  <project path="vendor/nvidia" name="SomethingJelly/android_vendor_nvidia" remote="github" revision="sj4.2.1" />
+  <project path="vendor/invensense" name="SomethingJelly/android_vendor_invensense" remote="github" revision="sj4.2.1" />
+  <project path="vendor/imgtec" name="SomethingJelly/android_vendor_imgtec" remote="github" revision="sj4.2.1" />
+  <project path="vendor/elan" name="SomethingJelly/android_vendor_elan" remote="github" revision="sj4.2.1" />
+  <project path="vendor/broadcom" name="SomethingJelly/android_vendor_broadcom" remote="github" revision="sj4.2.1" />
+  <project path="vendor/asus" name="SomethingJelly/android_vendor_asus" remote="github" revision="sj4.2.1" />
+
+  <!-- SJelly vendor files -->
+  <project path="vendor/sjelly" name="SomethingJelly/android_vendor_sjelly" remote="github" revision="sj4.2.1" />
 
 </manifest>
