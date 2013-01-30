@@ -1,0 +1,18 @@
+SomethingJelly
+==============
+
+Getting Started
+---------------
+
+To get started with SomethingJelly, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository using the SomethingJelly trees, use a command like this:
+
+    repo init -u git://github.com/SomethingJelly/android.git -b sj4.2.1
+
+Then to sync up:
+
+    repo sync -j# (# is the number of cores in your computer x2)
+
+Thanks to CyanogenMod for the README template.
