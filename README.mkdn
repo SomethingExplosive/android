@@ -8,6 +8,7 @@ Currently, SomethingJelly is supported for these devices:
 * Sprint Samsung Galaxy Nexus (toroplus)
 * Google Asus Nexus 7 (grouper)
 * Google Asus Nexus 7 3G (tilapia)
+* Google Samsung Nexus 10 (manta)
 
 Grabbing the Source
 -------------------
