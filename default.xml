@@ -361,8 +361,10 @@
   <project path="vendor/broadcom" name="SomethingExplosive/proprietary_vendor_broadcom" remote="github" revision="sj4.2" />
   <project path="vendor/asus" name="SomethingExplosive/proprietary_vendor_asus" remote="github" revision="sj4.2" />
   <project path="vendor/audience" name="SomethingExplosive/proprietary_vendor_audience" remote="github" revision="sj4.2" />
+  <project path="vendor/csr" name="SomethingExplosive/proprietary_vendor_csr" remote="github" revision="sj4.2" />
+  <project path="vendor/ti" name="SomethingExplosive/proprietary_vendor_ti" remote="github" revision"sj4.2" />
 
-  <!-- SJelly vendor files -->
+  <!-- SoMeX vendor files -->
   <project path="vendor/SoMeX" name="SomethingExplosive/android_vendor_SoMeX" remote="github" revision="sj4.2" />
 
 </manifest>
