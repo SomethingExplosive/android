@@ -5,8 +5,9 @@ Supported Devices
 -----------------
 
 Currently, SomethingExplosive is supported for these devices:
+* Google Samsung Galaxy Nexus (maguro)
 * Sprint Samsung Galaxy Nexus (toroplus)
-* Verizion Samsung Galaxy Nexus (toro)
+* Verizon Samsung Galaxy Nexus (toro)
 * Google Asus Nexus 7 (grouper)
 * Google Asus Nexus 7 3G (tilapia)
 * Google Samsung Nexus 10 (manta)
@@ -17,7 +18,7 @@ Grabbing the Source
 To get started with SomethingExplosive, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the SomethingJelly trees, use a command like this:
+To initialize your local repository using the SomethingExplosive trees, use a command like this:
 
     repo init -u git://github.com/SomethingExplosive/android.git -b sj4.2
 
