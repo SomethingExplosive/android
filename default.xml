@@ -36,7 +36,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device" />
+  <project path="device/lge/mako" name="SomethingExplosive/android_device_lge_mako" remote="github" revision="somex-4.2" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="SomethingExplosive/android_device_samsung_maguro" remote="github" revision="somex-4.2" />
@@ -361,6 +361,7 @@
   <project path="vendor/broadcom" name="SomethingExplosive/proprietary_vendor_broadcom" remote="github" revision="somex-4.2" />
   <project path="vendor/asus" name="SomethingExplosive/proprietary_vendor_asus" remote="github" revision="somex-4.2" />
   <project path="vendor/audience" name="SomethingExplosive/proprietary_vendor_audience" remote="github" revision="somex-4.2" />
+  <project path="vendor/lge" name="SomethingExplosive/proprietary_vendor_lge" remote="github" revision="somex-4.2" />
 
   <!-- SoMeX vendor files -->
   <project path="vendor/SoMeX" name="SomethingExplosive/android_vendor_SoMeX" remote="github" revision="somex-4.2" />
