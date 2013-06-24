@@ -11,11 +11,11 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SomethingExplosive/android_build" remote="github" revision="somex-4.2" >
+  <project path="build" name="SomethingExplosive/android_build" remote="github" revision="somex-4.2-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="SomethingExplosive/android" remote="github" revision="somex-4.2-test" />
+  <project path="android" name="SomethingExplosive/android" remote="github" revision="somex-4.2-test-test" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -25,8 +25,8 @@
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/grouper" name="SomethingExplosive/android_device_asus_grouper" remote="github" revision="somex-4.2" />
-  <project path="device/asus/tilapia" name="SomethingExplosive/android_device_asus_tilapia" remote="github" revision="somex-4.2" />
+  <project path="device/asus/grouper" name="SomethingExplosive/android_device_asus_grouper" remote="github" revision="somex-4.2-test" />
+  <project path="device/asus/tilapia" name="SomethingExplosive/android_device_asus_tilapia" remote="github" revision="somex-4.2-test" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" />
@@ -36,14 +36,14 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/mako" name="SomethingExplosive/android_device_lge_mako" remote="github" revision="somex-4.2" />
+  <project path="device/lge/mako" name="SomethingExplosive/android_device_lge_mako" remote="github" revision="somex-4.2-test" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/maguro" name="SomethingExplosive/android_device_samsung_maguro" remote="github" revision="somex-4.2" />
-  <project path="device/samsung/manta" name="SomethingExplosive/android_device_samsung_manta" remote="github" revision="somex-4.2" />
-  <project path="device/samsung/toro" name="SomethingExplosive/android_device_samsung_toro" remote="github" revision="somex-4.2" />
-  <project path="device/samsung/toroplus" name="SomethingExplosive/android_device_samsung_toroplus" remote="github" revision="somex-4.2" />
-  <project path="device/samsung/tuna" name="SomethingExplosive/android_device_samsung_tuna" remote="github" revision="somex-4.2" />
+  <project path="device/samsung/maguro" name="SomethingExplosive/android_device_samsung_maguro" remote="github" revision="somex-4.2-test" />
+  <project path="device/samsung/manta" name="SomethingExplosive/android_device_samsung_manta" remote="github" revision="somex-4.2-test" />
+  <project path="device/samsung/toro" name="SomethingExplosive/android_device_samsung_toro" remote="github" revision="somex-4.2-test" />
+  <project path="device/samsung/toroplus" name="SomethingExplosive/android_device_samsung_toroplus" remote="github" revision="somex-4.2-test" />
+  <project path="device/samsung/tuna" name="SomethingExplosive/android_device_samsung_tuna" remote="github" revision="somex-4.2-test" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -62,7 +62,7 @@
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="SomethingExplosive/android_external_busybox" remote="github" revision="somex-4.2" />
+  <project path="external/busybox" name="SomethingExplosive/android_external_busybox" remote="github" revision="somex-4.2-test" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -208,7 +208,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="SomethingExplosive/android_frameworks_base" remote="github" revision="somex-4.2" />
+  <project path="frameworks/base" name="SomethingExplosive/android_frameworks_base" remote="github" revision="somex-4.2-test-test" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="pdk" />
@@ -217,7 +217,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SomethingExplosive/android_frameworks_native" remote="github" revision="somex-4.2" />
+  <project path="frameworks/native" name="SomethingExplosive/android_frameworks_native" remote="github" revision="somex-4.2-test" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -260,22 +260,22 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
-  <project path="packages/apps/Calculator" name="SomethingExplosive/android_packages_apps_Calculator" remote="github" revision="somex-4.2" />
+  <project path="packages/apps/Calculator" name="SomethingExplosive/android_packages_apps_Calculator" remote="github" revision="somex-4.2-test" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/DeskClock" name="SomethingExplosive/android_packages_apps_DeskClock" remote="github" revision="somex-4.2" />
+  <project path="packages/apps/DeskClock" name="SomethingExplosive/android_packages_apps_DeskClock" remote="github" revision="somex-4.2-test" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="SomethingExplosive/android_packages_apps_Launcher2" remote="github" revision="somex-4.2" />
+  <project path="packages/apps/Launcher2" name="SomethingExplosive/android_packages_apps_Launcher2" remote="github" revision="somex-4.2-test" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="SomethingExplosive/android_packages_apps_Mms" remote="github" revision="somex-4.2" />
+  <project path="packages/apps/Mms" name="SomethingExplosive/android_packages_apps_Mms" remote="github" revision="somex-4.2-test" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -284,7 +284,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SomethingExplosive/android_packages_apps_Settings" remote="github" revision="somex-4.2" />
+  <project path="packages/apps/Settings" name="SomethingExplosive/android_packages_apps_Settings" remote="github" revision="somex-4.2-test" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -344,7 +344,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="SomethingExplosive/android_system_extras" remote="github" revision="somex-4.2" />
+  <project path="system/extras" name="SomethingExplosive/android_system_extras" remote="github" revision="somex-4.2-test" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -356,19 +356,19 @@
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="github" revision="master" />
 
   <!-- Proprietary vendor files -->
-  <project path="vendor/asus" name="SomethingExplosive/proprietary_vendor_asus" remote="github" revision="somex-4.2" />
-  <project path="vendor/audience" name="SomethingExplosive/proprietary_vendor_audience" remote="github" revision="somex-4.2" />
-  <project path="vendor/broadcom" name="SomethingExplosive/proprietary_vendor_broadcom" remote="github" revision="somex-4.2" />
-  <project path="vendor/elan" name="SomethingExplosive/proprietary_vendor_elan" remote="github" revision="somex-4.2" />
-  <project path="vendor/imgtec" name="SomethingExplosive/proprietary_vendor_imgtec" remote="github" revision="somex-4.2" />
-  <project path="vendor/invensense" name="SomethingExplosive/proprietary_vendor_invensense" remote="github" revision="somex-4.2" />
-  <project path="vendor/lge" name="SomethingExplosive/proprietary_vendor_lge" remote="github" revision="somex-4.2" />
-  <project path="vendor/nvidia" name="SomethingExplosive/proprietary_vendor_nvidia" remote="github" revision="somex-4.2" />
-  <project path="vendor/nxp" name="SomethingExplosive/proprietary_vendor_nxp" remote="github" revision="somex-4.2" />
-  <project path="vendor/samsung" name="SomethingExplosive/proprietary_vendor_samsung" remote="github" revision="somex-4.2" />
-  <project path="vendor/widevine" name="SomethingExplosive/proprietary_vendor_widevine" remote="github" revision="somex-4.2" />
+  <project path="vendor/asus" name="SomethingExplosive/proprietary_vendor_asus" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/audience" name="SomethingExplosive/proprietary_vendor_audience" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/broadcom" name="SomethingExplosive/proprietary_vendor_broadcom" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/elan" name="SomethingExplosive/proprietary_vendor_elan" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/imgtec" name="SomethingExplosive/proprietary_vendor_imgtec" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/invensense" name="SomethingExplosive/proprietary_vendor_invensense" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/lge" name="SomethingExplosive/proprietary_vendor_lge" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/nvidia" name="SomethingExplosive/proprietary_vendor_nvidia" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/nxp" name="SomethingExplosive/proprietary_vendor_nxp" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/samsung" name="SomethingExplosive/proprietary_vendor_samsung" remote="github" revision="somex-4.2-test" />
+  <project path="vendor/widevine" name="SomethingExplosive/proprietary_vendor_widevine" remote="github" revision="somex-4.2-test" />
 
   <!-- SoMeX vendor files -->
-  <project path="vendor/SoMeX" name="SomethingExplosive/android_vendor_SoMeX" remote="github" revision="somex-4.2" />
+  <project path="vendor/SoMeX" name="SomethingExplosive/android_vendor_SoMeX" remote="github" revision="somex-4.2-test" />
 
 </manifest>
