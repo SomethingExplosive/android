@@ -37,7 +37,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="SomethingExplosive/android_device_lge_mako" remote="github" revision="somex-4.2-test" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device" />
+  <project path="device/lge/mako-kernel" name="SomethingExplosive/android_device_lge_mako-kernel" remote="github" revision="somex-4.2-test" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="SomethingExplosive/android_device_samsung_maguro" remote="github" revision="somex-4.2-test" />
   <project path="device/samsung/manta" name="SomethingExplosive/android_device_samsung_manta" remote="github" revision="somex-4.2-test" />
