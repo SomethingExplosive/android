@@ -21,7 +21,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the SomethingExplosive trees, use a command like this:
 
-    repo init -u git://github.com/SomethingExplosive/android.git -b somex-4.2
+    repo init -u git://github.com/SomethingExplosive/android.git -b somex-4.3
 
 Then to sync up:
 
