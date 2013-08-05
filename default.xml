@@ -296,7 +296,7 @@
   <project path="packages/apps/Launcher2" name="SomethingExplosive/android_packages_apps_Launcher2" remote="github" revision="somex-4.3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="SomethingExplosive/android_packages_apps_Mms" remote="github" revision="somex-4.3" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="SomethingExplosive/android_packages_apps_Music" remote="github" revision="somex-4.3" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
