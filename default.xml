@@ -29,9 +29,9 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
-  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
+  <project path="device/asus/deb" name="SomethingExplosive/android_device_asus_deb" remote="github" revision="somex-4.3" groups="device,flo" />
+  <project path="device/asus/flo" name="SomethingExplosive/android_device_asus_flo" remote="github" revision="somex-4.3" groups="device,flo" />
+  <project path="device/asus/flo-kernel" name="SomethingExplosive/android_device_asus_flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="SomethingExplosive/android_device_asus_grouper" remote="github" revision="somex-4.3" groups="device,grouper" />
   <project path="device/asus/tilapia" name="SomethingExplosive/android_device_asus_tilapia" remote="github" revision="somex-4.3" groups="device,grouper" />
   <project path="device/common" name="device/common" />
