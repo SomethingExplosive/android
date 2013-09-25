@@ -307,6 +307,7 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="SomethingExplosive/android_packages_apps_Settings" remote="github" revision="somex-4.3-test" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
+  <project path="packages/apps/SoMeXPaper" name="SomethingExplosive/android_packages_apps_SoMeXPaper" remote="github" revision="somex-4.3-test" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
