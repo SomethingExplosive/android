@@ -56,7 +56,6 @@
   <project path="device/samsung/toro" name="SomethingExplosive/android_device_samsung_toro" remote="github" revision="somex-4.4"  groups="device,tuna" />
   <project path="device/samsung/toroplus" name="SomethingExplosive/android_device_samsung_toroplus" remote="github" revision="somex-4.4"  groups="device,tuna" />
   <project path="device/samsung/tuna" name="SomethingExplosive/android_device_samsung_tuna" remote="github" revision="somex-4.4" groups="device,tuna" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
