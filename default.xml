@@ -46,7 +46,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="SomethingExplosive/android_device_lge_hammerhead" remote="github" revision="somex-4-4" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead" name="SomethingExplosive/android_device_lge_hammerhead" remote="github" revision="somex-4.4" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="SomethingExplosive/android_device_lge_hammerhead-kernel" remote="github" revision="somex-4.4" groups="device,hammerhead" />
   <project path="device/lge/mako" name="SomethingExplosive/android_device_lge_mako" remote="github" revision="somex-4.4" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="SomethingExplosive/android_device_lge_mako-kernel" remote="github" revision="somex-4.4" groups="device,mako" />
