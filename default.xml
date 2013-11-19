@@ -7,7 +7,7 @@
   <remote  name="github"
 	   fetch="git://github.com/" />
 
-  <default revision="refs/tags/android-4.4_r1"
+  <default revision="refs/tags/android-4.4_r1.1"
            remote="aosp"
            sync-j="4" />
 
@@ -46,8 +46,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead" name="SomethingExplosive/android_device_lge_hammerhead" remote="github" revision="somex-4.4-test" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead-kernel" name="SomethingExplosive/android_device_lge_hammerhead-kernel" remote="github" revision="somex-4.4-test" groups="device,hammerhead" />
   <project path="device/lge/mako" name="SomethingExplosive/android_device_lge_mako" remote="github" revision="somex-4.4-test" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="SomethingExplosive/android_device_lge_mako-kernel" remote="github" revision="somex-4.4-test" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -56,8 +56,6 @@
   <project path="device/samsung/toro" name="SomethingExplosive/android_device_samsung_toro" remote="github" revision="somex-4.4-test"  groups="device,tuna" />
   <project path="device/samsung/toroplus" name="SomethingExplosive/android_device_samsung_toroplus" remote="github" revision="somex-4.4-test"  groups="device,tuna" />
   <project path="device/samsung/tuna" name="SomethingExplosive/android_device_samsung_tuna" remote="github" revision="somex-4.4-test" groups="device,tuna" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
-  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -289,7 +287,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
@@ -330,7 +327,7 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="SomethingExplosive/android_packages_apps_Launcher3" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="SomethingExplosive/android_packages_apps_Mms" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/Music" name="SomethingExplosive/android_packages_apps_Music" remote="github" revision="somex-4.4-test" />
@@ -338,7 +335,6 @@
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="SomethingExplosive/android_packages_apps_Phone" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
