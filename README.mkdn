@@ -7,6 +7,7 @@ Supported Devices
 Currently, SomethingExplosive is supported for these devices:
 * Google Samsung Galaxy Nexus (maguro)
 * Google LGE Nexus 4 (mako)
+* Google LGE Nexus 5 (hammerhead)
 * Sprint Samsung Galaxy Nexus (toroplus)
 * Verizon Samsung Galaxy Nexus (toro)
 * Google Asus Nexus 7 (2012) WiFi (grouper)
