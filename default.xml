@@ -329,7 +329,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
+  <project path="packages/apps/Launcher2" name="SomethingExplosive/android_packages_apps_Launcher2" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/Launcher3" name="SomethingExplosive/android_packages_apps_Launcher3" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="SomethingExplosive/android_packages_apps_Mms" remote="github" revision="somex-4.4-test" />
