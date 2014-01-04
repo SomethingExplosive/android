@@ -34,6 +34,7 @@
   <project path="device/asus/flo" name="SomethingExplosive/android_device_asus_flo" remote="github" revision="somex-4.4" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="SomethingExplosive/android_device_asus_flo-kernel" remote="github" revision="somex-4.4" groups="device,flo" />
   <project path="device/asus/grouper" name="SomethingExplosive/android_device_asus_grouper" remote="github" revision="somex-4.4" groups="device,grouper" />
+  <project path="device/asus/grouper-kernel" name="SomethingExplosive/android_device_asus_grouper-kernel" remote="github" revision="somex-4.4" />
   <project path="device/asus/tilapia" name="SomethingExplosive/android_device_asus_tilapia" remote="github" revision="somex-4.4" groups="device,grouper" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
@@ -53,9 +54,11 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="SomethingExplosive/android_device_samsung_maguro" remote="github" revision="somex-4.4"  groups="device,tuna" />
   <project path="device/samsung/manta" name="SomethingExplosive/android_device_samsung_manta" remote="github" revision="somex-4.4"  groups="device,manta" />
+  <project path="device/samsung/manta-kernel" name="SomethingExplosive/android_device_samsung_manta-kernel" remote="github" revision="somex-4.4" />
   <project path="device/samsung/toro" name="SomethingExplosive/android_device_samsung_toro" remote="github" revision="somex-4.4"  groups="device,tuna" />
   <project path="device/samsung/toroplus" name="SomethingExplosive/android_device_samsung_toroplus" remote="github" revision="somex-4.4"  groups="device,tuna" />
   <project path="device/samsung/tuna" name="SomethingExplosive/android_device_samsung_tuna" remote="github" revision="somex-4.4" groups="device,tuna" />
+  <project path="device/samsung/tuna-kernel" name="SomethingExplosive/android_device_samsung_tuna-kernel" remote="github" revision="somex-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
