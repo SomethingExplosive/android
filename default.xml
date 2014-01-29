@@ -318,7 +318,7 @@
   <project path="packages/apps/Browser" name="SomethingExplosive/android_packages_apps_Browser" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/Calculator" name="SomethingExplosive/android_packages_apps_Calculator" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
+  <project path="packages/apps/Camera2" name="SomethingExplosive/android_packages_apps_Camera2" remote="github" revision="somex-4.4-test" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="SomethingExplosive/android_packages_apps_Contacts" remote="github" revision="somex-4.4-test" />
