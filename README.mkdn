@@ -4,6 +4,9 @@ SomethingExplosive
 Actively Supported Devices
 --------------------------
 
+UPDATE: SoMeX is no longer actively maintained. Old versions should still function,
+but active development has ceased as of November 2014 until further notice.
+
 Currently, SomethingExplosive is supported for these devices:
 * Google Samsung Galaxy Nexus (maguro)
 * Google LGE Nexus 4 (mako)
