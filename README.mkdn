@@ -1,0 +1,39 @@
+SomethingExplosive
+==================
+
+Actively Supported Devices
+--------------------------
+
+UPDATE: SoMeX is no longer actively maintained. Old versions should still function,
+but active development has ceased as of November 2014 until further notice.
+
+Currently, SomethingExplosive is supported for these devices:
+* Google Samsung Galaxy Nexus (maguro)
+* Google LGE Nexus 4 (mako)
+* Google LGE Nexus 5 (hammerhead)
+* Google Asus Nexus 7 (2012) WiFi (grouper)
+* Google Asus Nexus 7 (2012) 3G (tilapia)
+* Google Asus Nexus 7 (2013) WiFi (flo)
+* Google Asus Nexus 7 (2013) LTE (deb)
+* Google Samsung Nexus 10 (manta)
+
+Deprecated Devices (not actively maintained)
+--------------------------------------------
+* Sprint Samsung Galaxy Nexus (toroplus)
+* Verizon Samsung Galaxy Nexus (toro)
+
+Grabbing the Source
+-------------------
+
+To get started with SomethingExplosive, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the SomethingExplosive trees, use a command like this:
+
+    repo init -u git://github.com/SomethingExplosive/android.git -b somex-4.4
+
+Then to sync up:
+
+    repo sync -j# (# is the number of cores in your computer x2)
+
+Thanks to CyanogenMod for the README template.

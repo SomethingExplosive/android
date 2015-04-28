@@ -2,7 +2,11 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/" />
+
+  <remote  name="github"
+	   fetch="git://github.com/" />  
+
   <default revision="refs/tags/android-5.1.1_r1"
            remote="aosp"
            sync-j="4" />
@@ -10,6 +14,8 @@
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="android" name="SomethingExplosive/android" remote="github" revision="somex-5.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
